@@ -99,7 +99,7 @@ class Table:
         print(''.join(self.mappedSymbols))
 
 #Generate a lookup table for the following alphabet
-wkbs =  Table("""`1234567890-=qazxswcderfvtgbnhymjuik,ol./;p[']\|}{\:\?\>\<POIUYTREWQASDFGHJKLLK<MNBVCXZ~!@#%^&()""")
+wkbs =  Table("""`1234567890-=qazxswcderfvtgbnhymjuik,ol./;p[']\\|}{\\:\\?\\>\\<POIUYTREWQASDFGHJKLLK<MNBVCXZ~!@#%^&()""")
 
 # Get the message to be operated upon
 m = str(input("\nEnter a message: "))
