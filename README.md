@@ -1,6 +1,6 @@
 # Galois-Field-Expanding-Cipher
 
-This is a classically inspired substition cipher used to perform data encryption and decryption. The classical substitution is perfomed using a Galois field (alternatively known as a finite field). This cipher first encodes a plaintext using a set of keywords and then substitutes each character for another character using modular exponentiation inverses over a finite field.
+This is a classically inspired substition cipher used to perform data encryption and decryption. The classical substitution is perfomed using a Galois field (alternatively known as a finite field). This cipher first encodes a plaintext using a set of pre-selected keywords and then substitutes each character in a given keyword for another character using modular exponentiation inverses over a Galois field.
 
 ## Example Run of Encryption
 ```
