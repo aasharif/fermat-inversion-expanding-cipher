@@ -1,5 +1,5 @@
-# Galois Field Expanding Cipher - Uses a Galois field (finite field) to
-# encipher plaintext.
+# Fermat Inversion Expanding Cipher - Uses Fermat inversion 
+# (via Fermat's Little Theorem) to encipher plaintext.
 
 # Copyright (C) 2020-2025 Alexander Sharif
 
