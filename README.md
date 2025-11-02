@@ -2,6 +2,16 @@
 
 This is a classically inspired substition cipher used to perform data encryption and decryption. The classical substitution is perfomed using a Fermat inversion on a set of symbols of prime cardinality (length). This cipher first encodes a plaintext using a set of pre-selected keywords and then substitutes each character in a given keyword for another character using Fermat inversion via Fermat's Little Theorem.
 
+The particular mapping for the Fermat inversion is as follows:
+
+$`i^{(p-2)} \equiv p`$
+
+Where $`i`$ is the index of the character in the set of prime length $`p`$.
+
+Therefore, this creates a bijection from the symbol set $`S`$ to itself:
+
+$`S_i \mapsto S_k`$ and $`S_k \mapsto S_i`$ where $`i`$ and $`k`$ are index varaibles, meaning $`i < p`$, $`k < p`$, and $`i \ne k`$  
+
 ## Example Run of Encryption
 ```
 # Table of symbols
