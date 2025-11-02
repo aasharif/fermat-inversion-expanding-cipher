@@ -10,7 +10,7 @@ Where $`i`$ is the index of the character in the set of prime length $`p`$.
 
 Therefore, this creates a bijection from the symbol set $`S`$ to itself:
 
-$`S_m \mapsto S_k`$ and $`S_k \mapsto S_m`$ where $`m`$ and $`k`$ are index varaibles, meaning $`m < p`$, $`k < p`$, and $`m \ne k`$  
+$`S_m \mapsto S_k`$ and $`S_k \mapsto S_m`$ where $`m`$ and $`k`$ are index varaibles and $`m \ne k`$  
 
 ## Example Run of Encryption
 ```
