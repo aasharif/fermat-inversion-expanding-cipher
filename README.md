@@ -1,6 +1,6 @@
 # Fermat-Inversion-Expanding-Cipher
 
-This is a classically inspired substition cipher used to perform data encryption and decryption. The classical substitution is perfomed using a Fermat inversion on a set of symbols of prime cardinality (length). This cipher first encodes a plaintext using a set of pre-selected keywords and then substitutes each character in a given keyword for another character using Fermat inversion via Fermat's Little Theorem.
+This is a classically inspired substition cipher used to perform data encryption and decryption. The classical substitution is performed using a Fermat inversion on a set of symbols of prime cardinality (length). This cipher first encodes a plaintext using a set of pre-selected keywords and then substitutes each character in a given keyword for another character using Fermat inversion via Fermat's Little Theorem.
 
 The particular mapping for the Fermat inversion is as follows (note $`p-2`$ is used and not $`p-1`$ due to 0-based indexing):
 
