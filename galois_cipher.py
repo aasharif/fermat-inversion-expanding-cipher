@@ -87,8 +87,6 @@ class Table:
         # Zip the symbols along with the associated symbols
         self.lookup_table = zip(self.symbols, self.mapped_symbols)
 
-    # TODO: Obfuscation and frequency shuffling.
-
     # Obfuscation functions
     def anpa_enc(self, mess):
         """
